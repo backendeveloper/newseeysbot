@@ -82,7 +82,7 @@ bot.dialog("/", function (session) {
                 // en bastan o gunun haberlerini cek
                 nextQuestion(session);
               } else {
-                conversation(session, user);
+                // conversation(session, user);
 
 
                 if (session.message.text == "details") {
