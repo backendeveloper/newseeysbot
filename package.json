@@ -1,21 +1,37 @@
 {
-  "name": "hello-chatconnector",
+  "name": "azure_node_bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Microsoft Bot Framework bot written in NodeJS to test issues.",
+  "main": "node_bot.js",
+  "dependencies": {
+    "botbuilder": "^3.8.2",
+    "dotenv-extended": "^2.0.0",
+    "express": "^4.14.1",
+    "request-promise": "^4.1.1",
+    "restify": "^4.3.0",
+    "mongoose": "4.13.10"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "azure-publish": "node publish.js"
+    "start": "node node_bot.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fignewton5/AzureNodeBot.git"
+  },
+  "keywords": [
+    "Microsoft",
+    "Bot",
+    "Framework",
+    "Chatbot",
+    "Chat",
+    "Bot"
+  ],
+  "author": "Tony Anziano",
   "license": "ISC",
-  "dependencies": {
-    "botbuilder": "^3.13.1",
-    "botbuilder-azure": "^3.0.4",
-    "restify": "^5.0.0"
+  "bugs": {
+    "url": "https://github.com/Fignewton5/AzureNodeBot/issues"
   },
-  "devDependencies": {
-    "request": "^2.81.0",
-    "zip-folder": "^1.0.0"
-  }
+  "homepage": "https://github.com/Fignewton5/AzureNodeBot#readme"
 }
